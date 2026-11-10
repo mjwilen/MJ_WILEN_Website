@@ -222,3 +222,18 @@ blockquote footer { font-family: var(--display); font-size: 0.95rem; color: var(
 .dark .btn-quiet:hover { background: rgba(255, 255, 255, 0.12); }
 
 .novel .edition { margin: 8px 0 0; font-size: .92rem; font-weight: 600; color: #ffc93c; }
+
+/* hero jump buttons: one palette color each, matching the MJ WILEN tiles */
+.hero-actions .btn { color: var(--ink); border-color: var(--ink); }
+.hero-actions .b-sun    { background: var(--sun); }
+.hero-actions .b-lagoon { background: var(--lagoon); }
+.hero-actions .b-sky    { background: var(--sky); }
+.hero-actions .b-pink   { background: var(--pink); }
+.hero-actions .b-lilac  { background: var(--lilac); }
+.hero-actions .btn:hover { filter: brightness(1.08); transform: translateY(-1px); }
+
+/* games: coming-soon list */
+.coming { margin: 1em 0 1.2em; }
+.coming-h { font-family: var(--display); font-weight: 600; margin: 0 0 4px; }
+.coming ul { margin: 0; padding-left: 1.2em; }
+.coming li { font-size: 0.98rem; font-style: italic; }
